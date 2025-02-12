@@ -1,0 +1,15 @@
+{
+  "name": "Complex Object",
+  "components": {
+    "geometry": "primitive: torus; radius: 1; radiusTubular: 0.1",
+    "material": "color: #FFC65D; metalness: 0.7; roughness: 0.3",
+    "position": "0 1.5 -3",
+    "rotation": "45 45 0",
+    "animation": "property: rotation; to: 45 405 0; dur: 5000; easing: linear; loop: true",
+    "hover-scale": "scale: 1.1 1.1 1.1; duration: 200",
+    "my-custom-component": {
+      "text": "Hello Complex World!",
+      "number": 42
+    }
+  }
+}

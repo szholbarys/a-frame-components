@@ -1,0 +1,10 @@
+{
+  "name": "Custom Sphere",
+  "components": {
+    "geometry": "primitive: sphere; radius: 0.8",
+    "material": "color: #4CC3D9",
+    "position": "0 1.5 -3",
+    "hover-scale": "scale: 1.2 1.2 1.2; duration: 300",
+    "color-cycle": "colors: #4CC3D9, #EF2D5E, #FFC65D; interval: 2000"
+  }
+}
