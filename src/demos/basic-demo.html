@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Components Demo</title>
+    <link rel="stylesheet" href="../styles/button.css" />
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="../components/hover-scale.js"></script>
+    <script src="../components/color-cycle.js"></script>
+    <script src="../components/back-button.js"></script>
+  </head>
+  <body>
+    <button id="back-button">Back</button>
+    <a-scene>
+      <a-box
+        position="-2 1 -3"
+        hover-scale="scale: 1.5 1.5 1.5; duration: 300"
+        color="#4CC3D9"
+      >
+      </a-box>
+      <a-sphere
+        position="0 1.25 -3"
+        radius="0.5"
+        color-cycle="colors: #EF2D5E, #4CC3D9, #7BC8A4; interval: 1000"
+      >
+      </a-sphere>
+      <a-cylinder
+        position="2 1 -3"
+        radius="0.5"
+        height="1.5"
+        hover-scale
+        color-cycle="interval: 2000"
+      >
+      </a-cylinder>
+      <a-plane
+        position="0 0 -4"
+        rotation="-90 0 0"
+        width="8"
+        height="4"
+        color="#7BC8A4"
+      ></a-plane>
+      <a-sky color="#1a1a1a"></a-sky>
+    </a-scene>
+  </body>
+</html>
