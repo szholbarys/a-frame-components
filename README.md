@@ -17,6 +17,14 @@ git clone https://github.com/szholbarys/a-frame-components.git
 ```
 
 ```bash
+cd a-frame-components
+```
+
+```bash
+npm i
+```
+
+```bash
 parcel ./src/index.html
 ```
 
